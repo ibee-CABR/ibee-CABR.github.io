@@ -1,234 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CABR-Energy & Environment | National Testing Institute</title>
+    <title>环能国检院 (CABR-BET) - 数字化门户</title>
     <style>
-        :root {
-            --primary-blue: #1a3a5f;
-            --accent-gold: #c5a059;
-            --text-gray: #333;
-            --light-bg: #f4f7f9;
-        }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: var(--text-gray);
-            margin: 0;
-            background-color: var(--light-bg);
-        }
-        header {
-            background: var(--primary-blue);
-            color: white;
-            padding: 4rem 2rem;
-            text-align: center;
-        }
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            padding: 2rem;
-        }
-        .hero h1 { margin: 0; font-size: 2.5rem; }
-        .hero p { font-size: 1.2rem; opacity: 0.9; }
-        
-        .section { margin-bottom: 4rem; }
-        h2 { border-left: 5px solid var(--accent-gold); padding-left: 1rem; color: var(--primary-blue); }
-
-        /* Grid for Centers and Labs */
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1.5rem;
-            margin-top: 2rem;
-        }
-        .card {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        .card h3 { color: var(--accent-gold); margin-top: 0; font-size: 1.2rem; }
-        .card ul { padding-left: 1.2rem; margin: 0.5rem 0; }
-        .card li { margin-bottom: 0.3rem; font-size: 0.95rem; }
-
-        /* Infrastructure Section */
-        .infra-banner {
-            background: var(--primary-blue);
-            color: white;
-            padding: 2.5rem;
-            border-radius: 12px;
-            margin-top: 2rem;
-        }
-        .infra-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 2rem;
-            text-align: center;
-        }
-        .infra-stat h4 { font-size: 2rem; margin: 0; color: var(--accent-gold); }
-
-        /* Extreme Climate Badge */
-        .badge-container {
-            background: #fff;
-            border: 1px solid #ddd;
-            padding: 2rem;
-            border-radius: 12px;
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            text-align: center;
-            margin-top: 1.5rem;
-        }
-        .badge { flex: 1; min-width: 200px; padding: 1rem; }
-        .badge h4 { font-size: 1.5rem; margin: 0.5rem 0; color: var(--primary-blue); }
-
-        .cta-box {
-            text-align: center;
-            background: white;
-            padding: 3rem;
-            border: 2px dashed var(--accent-gold);
-            border-radius: 15px;
-            margin-top: 3rem;
-        }
-        .btn {
-            background: var(--accent-gold);
-            color: white;
-            padding: 1rem 2.5rem;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-            display: inline-block;
-            margin-top: 1rem;
-        }
-        footer {
-            background: #222;
-            color: #ccc;
-            text-align: center;
-            padding: 2.5rem;
-            font-size: 0.9rem;
-        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1000px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
+        header { background: #004a87; color: #fff; padding: 2rem; text-align: center; border-radius: 8px; margin-bottom: 20px; }
+        .hero { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        h1 { margin: 0; font-size: 2.5rem; }
+        h2 { color: #004a87; border-bottom: 2px solid #004a87; padding-bottom: 10px; }
+        .news-item { background: #fff; padding: 15px; border-left: 5px solid #004a87; margin-bottom: 10px; border-radius: 0 4px 4px 0; }
+        .stats { display: flex; justify-content: space-around; margin: 20px 0; }
+        .stat-card { background: #fff; padding: 20px; border-radius: 8px; text-align: center; flex: 1; margin: 0 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .stat-value { font-size: 1.5rem; font-weight: bold; color: #e67e22; }
+        footer { text-align: center; padding: 20px; color: #777; font-size: 0.9rem; }
     </style>
 </head>
 <body>
+    <header>
+        <h1>环能国检院 (CABR-BET)</h1>
+        <p>国家建筑能源质量检验检测中心 | 数字化宣传矩阵</p>
+    </header>
 
-<header>
     <div class="hero">
-        <h1>CABR-Energy and Environment Testing Institute</h1>
-        <p>National Building Energy & Environment Testing | China Academy of Building Research (CABR)</p>
-    </div>
-</header>
-
-<div class="container">
-    
-    <div class="section">
-        <h2>Institutional Profile</h2>
-        <p>The National Building Energy & Environment Testing Institute (CABR-Energy & Environment) is a premier state-level third-party testing and calibration authority. We operate across 13 major laboratory bases nationwide, covering 43,000 square meters of specialized testing space. Our flagship facility in Tongzhou, Beijing, is one of China's largest integrated laboratories for building acoustics, optics, thermal environments, and renewable energy systems.</p>
-        
-        <div class="infra-banner">
-            <div class="infra-grid">
-                <div class="infra-stat">
-                    <h4>43k m²</h4>
-                    <p>Lab Space</p>
-                </div>
-                <div class="infra-stat">
-                    <h4>13</h4>
-                    <p>National Bases</p>
-                </div>
-                <div class="infra-stat">
-                    <h4>43+</h4>
-                    <p>ISO/ASHRAE Standards</p>
-                </div>
+        <h2>🔬 最新研究进展：跨季节蓄热系统 (SAGSHP)</h2>
+        <p><strong>研究背景：</strong> 解决北方寒冷地区地源热泵运行中的土壤热失衡难题。</p>
+        <p><strong>核心成果：</strong> 通过构建太阳能辅助地源热泵（SAGSHP）系统，我们实现了热量的“夏存冬用”。数值模拟表明，系统运行6年后可达到动态平衡，<strong>年热回收率高达 73%</strong>。</p>
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-value">73%</div>
+                <div class="stat-label">热回收率</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">16.89 吨/年</div>
+                <div class="stat-label">CO2 减排 (每100㎡)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">2:100:51.6</div>
+                <div class="stat-label">埋管:面积:集热比</div>
             </div>
         </div>
+        <p>该成果已在国际知名学术期刊发表，为北方农村建筑实现零碳供暖提供了科学的比例参考与实战指南。</p>
     </div>
 
-    <div class="section">
-        <h2>5 National Testing & Supervision Centers</h2>
-        <div class="grid">
-            <div class="card">
-                <h3>National Air Conditioning Equipment Quality Inspection Center</h3>
-                <ul>
-                    <li>ASHP (Air Source Heat Pumps)</li>
-                    <li>Chillers & Fan Coil Units</li>
-                    <li>Cleanroom & Purification Systems</li>
-                </ul>
-            </div>
-            <div class="card">
-                <h3>National Solar Water Heater Quality Inspection Center (Beijing)</h3>
-                <ul>
-                    <li>Solar Thermal Utilization</li>
-                    <li>Durability & Thermal Performance</li>
-                    <li>Renewable Energy Integration</li>
-                </ul>
-            </div>
-            <div class="card">
-                <h3>National Building Curtain Wall and Window Quality Inspection Center</h3>
-                <ul>
-                    <li>Acoustics & Optical Performance</li>
-                    <li>Airtightness & Structural Integrity</li>
-                    <li>High-Performance Envelopes</li>
-                </ul>
-            </div>
-            <div class="card">
-                <h3>National Building Energy Conservation Quality Inspection Center</h3>
-                <ul>
-                    <li>System-wide Energy Auditing</li>
-                    <li>Thermal Insulation Materials</li>
-                    <li>Intelligent Building Systems</li>
-                </ul>
-            </div>
-            <div class="card">
-                <h3>MOHURD Heat Supply Quality Supervision and Inspection Center</h3>
-                <ul>
-                    <li>Radiant Heating & Boilers</li>
-                    <li>Heat Meters & Flow Distribution</li>
-                    <li>District Heating Infrastructure</li>
-                </ul>
-            </div>
-        </div>
+    <div class="news-item">
+        <h3>✅ 官方资质更新</h3>
+        <p>环能国检院已获得涵盖通州、顺义、德州、保定等多地的 <strong>CMA/CNAS</strong> 检测能力认定，具备国际公认的第三方公正性地位。</p>
     </div>
 
-    <div class="section">
-        <h2>Key Technical Capabilities</h2>
-        <p>Beyond standard testing, we provide advanced specialized services and global accreditation support:</p>
-        <div class="grid">
-            <div class="card">
-                <h3>Calibration Services</h3>
-                <p>Precise calibration for instruments: Temperature, Wind Speed, Pressure, Particle Counters, and Dust Monitors.</p>
-            </div>
-            <div class="card">
-                <h3>Proficiency Testing (PT)</h3>
-                <p>ISO/IEC 17043 accredited provider for HVAC components, air filters, and heat pump units worldwide.</p>
-            </div>
-            <div class="card">
-                <h3>The All-Climate Matrix</h3>
-                <p>Field validation in Mohe (-53°C), Turpan (Dry-Heat), and Hainan (Tropical) for extreme environment reliability.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="section">
-        <h2>Academic Leadership</h2>
-        <ul>
-            <li><strong>ISO/TC146/SC6:</strong> National technical counterpart for Indoor Air Quality standards.</li>
-            <li><strong>100+ SCI Papers:</strong> Global research leadership in HVAC efficiency and IAQ mapping.</li>
-            <li><strong>State-Level Recognition:</strong> Directly guided by SAMR and MOHURD for independent, fair testing.</li>
-        </ul>
-    </div>
-
-    <div class="cta-box">
-        <h3>Authoritative Testing & Research Collaboration</h3>
-        <p>Partner with China's leading national institute for ISO certification, technical validation, and global market entry.</p>
-        <a href="mailto:wangzhichao@chinaibee.com" class="btn">Request a Quote / Consultation</a>
-    </div>
-
-</div>
-
-<footer>
-    <p>&copy; 2026 National Building Energy & Environment Testing Institute. All Rights Reserved.</p>
-    <p>Official Contact: <a href="mailto:wangzhichao@chinaibee.com" style="color: #c5a059;">wangzhichao@chinaibee.com</a></p>
-</footer>
-
+    <footer>
+        <p>&copy; 2026 环能国检院 | 数字化使者 BEE_Twitter_Chief 维护</p>
+    </footer>
 </body>
 </html>
