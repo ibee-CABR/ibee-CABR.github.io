@@ -3,232 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CABR-Energy & Environment | National Testing Institute</title>
+    <title>Zhichao Wang | Senior Researcher | CABR-BET</title>
     <style>
-        :root {
-            --primary-blue: #1a3a5f;
-            --accent-gold: #c5a059;
-            --text-gray: #333;
-            --light-bg: #f4f7f9;
-        }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: var(--text-gray);
-            margin: 0;
-            background-color: var(--light-bg);
-        }
-        header {
-            background: var(--primary-blue);
-            color: white;
-            padding: 4rem 2rem;
-            text-align: center;
-        }
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            padding: 2rem;
-        }
-        .hero h1 { margin: 0; font-size: 2.5rem; }
-        .hero p { font-size: 1.2rem; opacity: 0.9; }
-        
-        .section { margin-bottom: 4rem; }
-        h2 { border-left: 5px solid var(--accent-gold); padding-left: 1rem; color: var(--primary-blue); }
-
-        /* Grid for Centers and Labs */
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1.5rem;
-            margin-top: 2rem;
-        }
-        .card {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        .card h3 { color: var(--accent-gold); margin-top: 0; font-size: 1.2rem; }
-        .card ul { padding-left: 1.2rem; margin: 0.5rem 0; }
-        .card li { margin-bottom: 0.3rem; font-size: 0.95rem; }
-
-        /* Infrastructure Section */
-        .infra-banner {
-            background: var(--primary-blue);
-            color: white;
-            padding: 2.5rem;
-            border-radius: 12px;
-            margin-top: 2rem;
-        }
-        .infra-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 2rem;
-            text-align: center;
-        }
-        .infra-stat h4 { font-size: 2rem; margin: 0; color: var(--accent-gold); }
-
-        /* Extreme Climate Badge */
-        .badge-container {
-            background: #fff;
-            border: 1px solid #ddd;
-            padding: 2rem;
-            border-radius: 12px;
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            text-align: center;
-            margin-top: 1.5rem;
-        }
-        .badge { flex: 1; min-width: 200px; padding: 1rem; }
-        .badge h4 { font-size: 1.5rem; margin: 0.5rem 0; color: var(--primary-blue); }
-
-        .cta-box {
-            text-align: center;
-            background: white;
-            padding: 3rem;
-            border: 2px dashed var(--accent-gold);
-            border-radius: 15px;
-            margin-top: 3rem;
-        }
-        .btn {
-            background: var(--accent-gold);
-            color: white;
-            padding: 1rem 2.5rem;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-            display: inline-block;
-            margin-top: 1rem;
-        }
-        footer {
-            background: #222;
-            color: #ccc;
-            text-align: center;
-            padding: 2.5rem;
-            font-size: 0.9rem;
-        }
+        :root { --primary-color: #003366; --secondary-color: #f4f4f4; --accent-color: #d4a017; --text-color: #333; }
+        body { font-family: 'Times New Roman', Times, serif; line-height: 1.7; color: var(--text-color); max-width: 900px; margin: 0 auto; padding: 40px; background-color: #fff; }
+        header { border-bottom: 2px solid var(--primary-color); padding-bottom: 20px; margin-bottom: 30px; }
+        h1 { color: var(--primary-color); font-size: 2.5rem; margin: 0; }
+        .title { font-style: italic; color: #666; font-size: 1.2rem; }
+        nav { margin: 20px 0; }
+        nav a { margin-right: 20px; text-decoration: none; color: var(--primary-color); font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        section { margin-bottom: 40px; }
+        h2 { color: var(--primary-color); border-bottom: 1px solid #ddd; padding-bottom: 5px; margin-top: 30px; }
+        .cooperation-box { background-color: var(--secondary-color); border-left: 5px solid var(--accent-color); padding: 20px; margin: 20px 0; }
+        .contact-info { font-weight: bold; color: var(--primary-color); }
+        .paper-item { margin-bottom: 15px; padding-left: 20px; text-indent: -20px; }
+        .journal { font-style: italic; color: #555; }
+        .highlight { color: var(--accent-color); font-weight: bold; }
+        footer { font-size: 0.8rem; color: #999; text-align: center; margin-top: 50px; border-top: 1px solid #eee; padding-top: 20px; }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Zhichao Wang</h1>
+        <p class="title">Senior Researcher | National Center for Quality Inspection and Testing of Building Energy and Environment (CABR-BET)</p>
+        <p>Expert in ISO International Standards & Building Decarbonization</p>
+    </header>
 
-<header>
-    <div class="hero">
-        <h1>CABR-Energy and Environment Testing Institute</h1>
-        <p>National Building Energy & Environment Testing | China Academy of Building Research (CABR)</p>
-    </div>
-</header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#interests">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#cooperation">Cooperation</a>
+    </nav>
 
-<div class="container">
-    
-    <div class="section">
-        <h2>Institutional Profile</h2>
-        <p>The National Building Energy & Environment Testing Institute (CABR-Energy & Environment) is a premier state-level third-party testing and calibration authority. We operate across 13 major laboratory bases nationwide, covering 43,000 square meters of specialized testing space. Our flagship facility in Tongzhou, Beijing, is one of China's largest integrated laboratories for building acoustics, optics, thermal environments, and renewable energy systems.</p>
-        
-        <div class="infra-banner">
-            <div class="infra-grid">
-                <div class="infra-stat">
-                    <h4>43k m²</h4>
-                    <p>Lab Space</p>
-                </div>
-                <div class="infra-stat">
-                    <h4>13</h4>
-                    <p>National Bases</p>
-                </div>
-                <div class="infra-stat">
-                    <h4>43+</h4>
-                    <p>ISO/ASHRAE Standards</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Senior Researcher at the <strong>China Academy of Building Research (CABR)</strong>, leading the <strong>National Building Energy & Environment Testing Institute</strong>. My career is dedicated to advancing the efficiency of HVAC systems, the integration of renewable energy in buildings, and the development of international standards for a sustainable built environment.</p>
+        <p>As a lead expert in <strong>ISO</strong> and <strong>ASHRAE</strong> technical committees, I bridge the gap between cutting-edge laboratory research and global industry standards.</p>
+    </section>
 
-    <div class="section">
-        <h2>5 National Testing & Supervision Centers</h2>
-        <div class="grid">
-            <div class="card">
-                <h3>National Air Conditioning Equipment Quality Inspection Center</h3>
-                <ul>
-                    <li>ASHP (Air Source Heat Pumps)</li>
-                    <li>Chillers & Fan Coil Units</li>
-                    <li>Cleanroom & Purification Systems</li>
-                </ul>
-            </div>
-            <div class="card">
-                <h3>National Solar Water Heater Quality Inspection Center (Beijing)</h3>
-                <ul>
-                    <li>Solar Thermal Utilization</li>
-                    <li>Durability & Thermal Performance</li>
-                    <li>Renewable Energy Integration</li>
-                </ul>
-            </div>
-            <div class="card">
-                <h3>National Building Curtain Wall and Window Quality Inspection Center</h3>
-                <ul>
-                    <li>Acoustics & Optical Performance</li>
-                    <li>Airtightness & Structural Integrity</li>
-                    <li>High-Performance Envelopes</li>
-                </ul>
-            </div>
-            <div class="card">
-                <h3>National Building Energy Conservation Quality Inspection Center</h3>
-                <ul>
-                    <li>System-wide Energy Auditing</li>
-                    <li>Thermal Insulation Materials</li>
-                    <li>Intelligent Building Systems</li>
-                </ul>
-            </div>
-            <div class="card">
-                <h3>MOHURD Heat Supply Quality Supervision and Inspection Center</h3>
-                <ul>
-                    <li>Radiant Heating & Boilers</li>
-                    <li>Heat Meters & Flow Distribution</li>
-                    <li>District Heating Infrastructure</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="section">
-        <h2>Key Technical Capabilities</h2>
-        <p>Beyond standard testing, we provide advanced specialized services and global accreditation support:</p>
-        <div class="grid">
-            <div class="card">
-                <h3>Calibration Services</h3>
-                <p>Precise calibration for instruments: Temperature, Wind Speed, Pressure, Particle Counters, and Dust Monitors.</p>
-            </div>
-            <div class="card">
-                <h3>Proficiency Testing (PT)</h3>
-                <p>ISO/IEC 17043 accredited provider for HVAC components, air filters, and heat pump units worldwide.</p>
-            </div>
-            <div class="card">
-                <h3>The All-Climate Matrix</h3>
-                <p>Field validation in Mohe (-53°C), Turpan (Dry-Heat), and Hainan (Tropical) for extreme environment reliability.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="section">
-        <h2>Academic Leadership</h2>
+    <section id="interests">
+        <h2>Research Interests</h2>
         <ul>
-            <li><strong>ISO/TC146/SC6:</strong> National technical counterpart for Indoor Air Quality standards.</li>
-            <li><strong>100+ SCI Papers:</strong> Global research leadership in HVAC efficiency and IAQ mapping.</li>
-            <li><strong>State-Level Recognition:</strong> Directly guided by SAMR and MOHURD for independent, fair testing.</li>
+            <li><strong>Renewable Energy Integration:</strong> Solar-Assisted Ground-Source Heat Pump (SAGSHP) with seasonal energy storage.</li>
+            <li><strong>Building Decarbonization:</strong> Zero-carbon heating solutions for cold regions and performance evaluation of high-efficiency heat pumps.</li>
+            <li><strong>Indoor Environmental Quality:</strong> Advanced ventilation, residential kitchen exhaust optimization, and oily fume migration control.</li>
+            <li><strong>Carbon Capture & Utilization:</strong> Physicochemical properties of binary amine-based deep eutectic solvents for building-scale carbon capture.</li>
         </ul>
-    </div>
+    </section>
 
-    <div class="cta-box">
-        <h3>Authoritative Testing & Research Collaboration</h3>
-        <p>Partner with China's leading national institute for ISO certification, technical validation, and global market entry.</p>
-        <a href="mailto:wangzhichao@chinaibee.com" class="btn">Request a Quote / Consultation</a>
-    </div>
+    <section id="cooperation" class="cooperation-box">
+        <h2>🤝 Open for International Cooperation</h2>
+        <p>We are actively seeking global partnerships in the following areas:</p>
+        <ul>
+            <li><strong>Joint Research Projects:</strong> Collaborative studies on HVAC efficiency, heat pump innovation, and carbon capture technologies.</li>
+            <li><strong>International Standard Development:</strong> Cooperation on ISO/TC standards for building environment and energy testing.</li>
+            <li><strong>Testing & Certification:</strong> Global laboratory proficiency testing (PT) and cross-border accreditation services.</li>
+            <li><strong>Academic Exchange:</strong> Hosting visiting scholars and organizing international technical forums.</li>
+        </ul>
+        <p>For inquiries and cooperation proposals, please contact:</p>
+        <p class="contact-info">📧 Email: <a href="mailto:wangzhichao@chinaibee.com">wangzhichao@chinaibee.com</a></p>
+    </section>
 
-</div>
+    <section id="publications">
+        <h2>Publication Highlights</h2>
+        <p>Author of over <strong>80+ Peer-reviewed SCI Papers</strong> in top-tier journals including <em>Applied Energy</em>, <em>Solar Energy</em>, and <em>Building and Environment</em>.</p>
+        
+        <div class="paper-item">
+            1. <strong>Numerical study of Solar-Assisted Ground-Source Heat Pump (SAGSHP) with seasonal energy storage</strong>. <span class="journal">Applied Energy / Solar Energy Research</span>. <span class="highlight">Key finding: 73% heat recovery rate achieved after 6-year dynamic equilibrium.</span>
+        </div>
+        <div class="paper-item">
+            2. <strong>Physicochemical and thermodynamic properties of binary amine-based deep eutectic solvents for carbon capture</strong>. <span class="journal">Chemical Engineering Journal / Journal of Molecular Liquids</span>.
+        </div>
+        <div class="paper-item">
+            3. <strong>Assessing health risks from cooking oil fume leaks in residential cooking exhaust shaft systems</strong>. <span class="journal">Building and Environment</span>.
+        </div>
+        <div class="paper-item">
+            4. <strong>Evaluating the Performance of Refrigerant Flow Distributors in Multi-split Air Conditioning Systems</strong>. <span class="journal">HVAC&R Research</span>.
+        </div>
+        <p><em>Full publication list available upon request.</em></p>
+    </section>
 
-<footer>
-    <p>&copy; 2026 National Building Energy & Environment Testing Institute. All Rights Reserved.</p>
-    <p>Official Contact: <a href="mailto:wangzhichao@chinaibee.com" style="color: #c5a059;">wangzhichao@chinaibee.com</a></p>
-</footer>
-
+    <footer>
+        <p>&copy; 2026 Zhichao Wang | CABR-BET. Managed by BEE_Twitter_Chief Digital Command.</p>
+    </footer>
 </body>
 </html>
